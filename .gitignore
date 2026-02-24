@@ -1,24 +1,56 @@
+# ======================
 # Python
+# ======================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.db
+*.py[cod]
+*$py.class
 
-# Virtual env
+# Virtual environments
 venv/
+.venv/
+venv*/
 .env/
 
-# Dataset
-data/
-
-# Models
+# ======================
+# Training Artifacts
+# ======================
+models/
+cache/
+results/
+runs/
 *.keras
 *.h5
+*.ckpt
+*.pb
 
+# TensorBoard
+logs/
+events.out.tfevents.*
+
+# ======================
+# Dataset
+# ======================
+data/
+dataset*/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
 # OS
+# ======================
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
+# ======================
+# Misc
+# ======================
+*.db
+*.log

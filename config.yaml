@@ -1,0 +1,20 @@
+data:
+  data_dir: data
+  img_size: 224
+  batch_size: 32
+
+training:
+  epochs: 10
+  learning_rate: 0.001
+  fine_tune: false
+  fine_tune_lr: 0.000001
+  fine_tune_layers: 10
+  fast_dev_run: false
+  fast_train_batches: 50
+  fast_val_batches: 20
+  fine_tune_epochs: 3
+  monitor: val_auc
+
+model:
+  architecture: EfficientNetB0
+  dropout: 0.3
