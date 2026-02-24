@@ -72,8 +72,8 @@ pip install -r requirements.txt
      real(1)     0.7459    0.7583    0.7521       120
 
     accuracy                         0.7500       240
-   macro avg     0.7501    0.7500    0.7500       240
-weighted avg     0.7501    0.7500    0.7500       240
+    macro avg     0.7501    0.7500    0.7500       240
+    weighted avg     0.7501    0.7500    0.7500       240
 
 
 ## Experiment Workflow
